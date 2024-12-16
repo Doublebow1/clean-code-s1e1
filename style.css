@@ -106,7 +106,7 @@ li > * {
   vertical-align: middle;
 }
 
-li > .check__input {
+li > input[type=checkbox] {
   margin: 0 10px;
 }
 li > label {
@@ -115,7 +115,7 @@ li > label {
   font-size: 18px;
   width: 226px;
 }
-li > .task__input {
+li > input[type="text"] {
   width: 226px
 }
 button.delete img {
@@ -134,11 +134,11 @@ ul #completed-tasks label {
 }
 
 /* Edit Task */
-ul li .task__input {
+ul li input[type="text"] {
   display:none
 }
 
-ul li.edit-mode .task__input {
+ul li.edit-mode input[type="text"] {
   display:inline-block;
   width:224px
 }
